@@ -1,36 +1,159 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Neuronix Landing Page
 
-## Getting Started
+An award-worthy, high-end landing website for Neuronix — an AI-powered online school and academy platform. This website is designed for potential buyers and investors, showcasing the platform's value proposition, features, and market potential.
 
-First, run the development server:
+## ✨ Features
+
+- **Modern Design**: Professional, polished design with glassmorphism effects
+- **3D Visualization**: Interactive Three.js/React Three Fiber background with floating geometries and neural network visualization
+- **Smooth Animations**: GSAP-powered scroll-triggered animations and transitions
+- **Responsive Design**: Mobile-first approach with optimized touch targets
+- **Accessibility**: Screen reader support, keyboard navigation, and reduced motion preferences
+- **Performance**: Optimized for speed with Next.js 15 and Turbopack
+
+## 🎯 Pages & Sections
+
+### Main Landing Page (/)
+1. **Hero Section**: Compelling headline with key metrics and market data
+2. **Value Proposition**: Investment opportunity highlights and revenue projections
+3. **Platform Features**: Interactive showcase of 5 core modules
+4. **How It Works**: Implementation roadmap with timeline visualization
+5. **Testimonials**: Social proof from industry leaders and stakeholders
+6. **Growth Potential**: Market expansion opportunities and scalability analysis
+7. **Contact CTA**: Investment inquiry form with direct contact information
+
+### Purchase Page (/buy)
+- **Complete platform purchase at $1,500**
+- **Package selection** (Basic, Complete, Enterprise)
+- **Included features** and add-ons at no extra cost
+- **Purchase form** with order summary
+- **Why choose Neuronix** benefits section
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
 
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: Next.js 15 (standard compiler for compatibility)
+- **Styling**: TailwindCSS 3.4 with PostCSS
+- **Animations**: GSAP with ScrollTrigger
+- **3D Graphics**: Three.js + React Three Fiber + Drei
+- **TypeScript**: Full type safety
+- **Font**: Inter (Google Fonts)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📱 Browser Support
 
-## Learn More
+- Chrome 90+
+- Firefox 88+
+- Safari 14+
+- Edge 90+
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Design Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Glassmorphism
+- Frosted glass effects with backdrop blur
+- Semi-transparent cards with subtle borders
+- Layered depth with shadow effects
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Color Palette
+- Primary: Linear gradient from #667eea to #764ba2
+- Secondary: White with varying opacity levels
+- Accent: Blue (#667eea), Purple (#764ba2), Green (#10b981)
 
-## Deploy on Vercel
+### Typography
+- Primary: Inter (weights 300-900)
+- Gradient text effects for emphasis
+- Responsive font scaling
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Vercel (Recommended)
+```bash
+# Deploy to Vercel
+npm i -g vercel
+vercel --prod
+```
+
+### Netlify
+```bash
+# Build the project
+npm run build
+
+# Deploy the 'out' directory to Netlify
+```
+
+### Manual Deployment
+```bash
+# Build for production
+npm run build
+
+# The built files will be in the '.next' directory
+# Deploy these files to your hosting provider
+```
+
+## 📊 Performance Optimizations
+
+- **Image Optimization**: Next.js automatic image optimization
+- **Code Splitting**: Automatic route-based code splitting
+- **Lazy Loading**: Components and 3D elements load on demand
+- **Preloading**: Critical resources preloaded for faster initial load
+- **Caching**: Optimized caching strategies for static assets
+
+## 🎯 SEO Features
+
+- **Meta Tags**: Comprehensive meta tags for social sharing
+- **Structured Data**: JSON-LD schema for better search visibility
+- **Open Graph**: Facebook and Twitter card optimization
+- **Sitemap**: Automatic sitemap generation
+- **Analytics Ready**: Easy integration with Google Analytics
+
+## 🔧 Configuration
+
+### Environment Variables
+Create a `.env.local` file in the root directory:
+
+```env
+# Optional: Add any API keys or configuration
+NEXT_PUBLIC_ANALYTICS_ID=your_analytics_id
+```
+
+### Customization
+- **Colors**: Modify CSS variables in `globals.css`
+- **Content**: Update content in component files
+- **Animations**: Adjust GSAP timelines in components
+- **3D Elements**: Customize Three.js scenes in `ThreeJSVisualization.tsx`
+
+## 📞 Contact Information
+
+For investment inquiries or technical questions:
+- Email: investments@neuronix.ai
+- Phone: +92 300 123 4567
+
+## 📄 License
+
+© 2024 Neuronix EdTech Solutions. All rights reserved.
+
+---
+
+*This website represents a professional presentation of the Neuronix platform for potential investors and buyers. All financial projections and market data are based on conservative industry analysis and should be verified during due diligence.*
+# neuronix-ai-school
